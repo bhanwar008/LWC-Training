@@ -1,0 +1,10 @@
+<template>
+    <lightning-card  title= "{item.message}" icon-name="standard:account">
+
+        <div class="slds-p-around_medium">
+            <h1> {item.message} </h1>
+            <lightning-input type="text" label="Enter some text" value={item.message} onchange={handleChange}></lightning-input>
+        </div>
+
+    </lightning-card>
+</template>
